@@ -12,5 +12,10 @@ export class HomePage {
   constructor(public navCtrl: NavController) {
 
   }
-
+  login(){
+    this.navCtrl.setRoot('CategoriasPage');
+  }
+  login2(){
+    this.navCtrl.push('CategoriasPage');
+  }
 }
